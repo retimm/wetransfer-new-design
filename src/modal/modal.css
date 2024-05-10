@@ -1,0 +1,73 @@
+
+
+.backdrop_jhgfrt8765rTYU{
+    background-color: #00000080;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.Modal_Modal__52zdi{
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px #ccc;
+    height: auto;
+    /* left: 30%; */
+    padding: 1rem 1rem 4rem;
+    position: fixed;
+    /* top: 15%; */
+    transition: all .3s ease-out;
+    width: 30%;
+    width: 500px;
+    z-index: 200;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: slowMo forwards 1 1.5s ease;
+    top: -60%;
+}
+
+@keyframes slowMo {
+    from{
+        top: -60%;
+    }
+
+    to{
+        top: 50%;
+    }
+}
+
+#former input{
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color: #212529;
+    display: block;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 3.5rem;
+    line-height: 1.5;
+    margin: 1rem 0;
+    padding: 0.375rem 0.75rem;
+    width: 100%;
+}
+
+.errmsg{
+    display: block;
+    margin: 0.2rem 0px;
+    color: rgba(255, 0, 0, 0.863);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+@media (max-width: 500px) {
+    .Modal_Modal__52zdi{
+        width: 100%;
+    }
+}
